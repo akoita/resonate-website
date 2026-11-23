@@ -5,10 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Resonate: fans fund live shows via smart-contract escrow, artists keep control. Passkey-native Web3 music.">
   <link rel="canonical" href="https://resonate.pydes.xyz/">
-  <link rel="icon" type="image/png" href="assets/95Ce0WZFnhB5qwBO6WZ_Bq.png">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/resonate-app-icon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/brand/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+  <meta name="theme-color" content="#08080F">
   <meta property="og:title" content="Resonate — Turn fan demand into real concerts.">
   <meta property="og:url" content="https://resonate.pydes.xyz/">
-  <meta property="og:image" content="https://resonate.pydes.xyz/assets/aKumNc-ueNqdAC_JZX64Fs.png">
+  <meta property="og:description" content="Fans fund live shows via smart-contract escrow, artists keep control. Fair music, from stem to stage.">
+  <meta property="og:image" content="https://resonate.pydes.xyz/assets/brand/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://resonate.pydes.xyz/assets/brand/og-default.png">
   <title>Resonate — Turn fan demand into real concerts.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -115,19 +123,16 @@
       gap: 12px;
     }
 
-    .brand-logo-img {
-      width: 32px;
-      height: 36px;
-      object-fit: contain;
-      filter: drop-shadow(0 0 8px var(--accent-violet));
+    /* Logo lockup from the Resonate brand guide (outlined wordmark, no
+       effects). Source of truth: akoita/resonate web/public/brand/. */
+    .brand-lockup {
+      display: block;
+      height: 38px;
+      width: auto;
     }
 
-    .brand-title {
-      font-size: 1.35rem;
-      font-weight: 900;
-      letter-spacing: 0.15em;
-      color: var(--text-main);
-      text-transform: uppercase;
+    .brand-lockup--footer {
+      height: 30px;
     }
 
     .main-nav {
@@ -797,8 +802,7 @@
   <header class="site-header">
     <div class="header-container">
       <a href="#hero" class="brand-link">
-        <img src="assets/95Ce0WZFnhB5qwBO6WZ_Bq.png" alt="Resonate house logo" class="brand-logo-img">
-        <span class="brand-title">RESONATE</span>
+        <img src="assets/brand/resonate-lockup-on-dark.svg" alt="Resonate" class="brand-lockup" width="148" height="38">
       </a>
       
       <nav class="main-nav">
@@ -1167,8 +1171,7 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-brand">
-            <img src="assets/95Ce0WZFnhB5qwBO6WZ_Bq.png" alt="Resonate house logo" style="width: 24px; height: 28px;">
-            <span style="font-weight: 900; letter-spacing: 0.1em; color: var(--text-main);">RESONATE</span>
+            <img src="assets/brand/resonate-lockup-on-dark.svg" alt="Resonate" class="brand-lockup brand-lockup--footer" width="117" height="30">
           </div>
           <div class="footer-text">
             Turn fan demand into real concerts. Transparency • Artist Empowerment • Innovation • Community
