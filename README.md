@@ -1,6 +1,8 @@
 # resonate-website
 
-Serving for https://resonate.pydes.xyz (GitHub Pages, custom domain + TLS).
+Source of https://resonate.pydes.xyz (GitHub Pages, custom domain + TLS; DNS at OVH: `resonate` CNAME -> `akoita.github.io`).
 
-Currently a redirect shim to the Pomelli-generated presentation page.
-Next step: replace with the real site (assets exported from Pomelli, owned here).
+Static landing page rebuilt from the Google Labs Pomelli design
+(https://labs.google.com/pomelli/website/anXVLcAU0AF5YPgRYwRkzF): the HTML is the
+Pomelli export, with its images self-hosted under `assets/`. No build step; edit
+`index.html` and push to `main` to deploy.
